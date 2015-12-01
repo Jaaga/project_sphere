@@ -10,7 +10,7 @@ def main():
     # data['stakeholders'] = []
 
 
-    with open('alldata.csv') as csvfile:
+    with open('open_responses.csv') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             stakeholder = row['Code']
