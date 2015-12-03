@@ -7,7 +7,7 @@ import json
 #Note we are not storing Confidentiality (as all of these are open) and
 #Shortname - this is instead used as the key within the parent dictionary
 metadata_tags = ['Organisation', 'URL', 'Name(s) of Interviewee(s)', 'Sector', 'Type', 'Interview Number', 'Date and Time',
-'Orator', 'Documentor', 'Venue', 'Duration', 'Interview Code']
+'Orator', 'Documentor', 'Venue', 'Duration', 'Interview Code', 'Confidentiality']
 
 #Questions list to store responses within a sub-dictionary for easier parsing when displaying
 #Note that this question order is not retained in the dictonary 'data' as Python dictionaries are unordered. We reuse this
